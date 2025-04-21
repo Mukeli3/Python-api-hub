@@ -66,7 +66,8 @@ Calculates BMI and stores the result.
   "bmi": 22.86,
   "category": "Normal weight",
   "message": "Calculation saved!"
-}
+} 
+```
 
 ### 2. `GET /history`
 
@@ -75,7 +76,8 @@ Fetches all past BMI calculations.
 **Example Request**:  
 `http GET http://localhost:5000/history`
 
-**Example Response**:  
+**Example Response**: 
+```
 [
   {
     "id": 1,
@@ -87,7 +89,7 @@ Fetches all past BMI calculations.
     "created_at": "2025-04-18T14:30:00"
   }
 ]
-
+```
 ## 🥪 Sample Test Cases
 
 - Metric input:  
