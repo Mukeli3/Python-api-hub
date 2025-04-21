@@ -1,0 +1,14 @@
+# venv
+venv-Python-api-hub/
+
+# Byte-compiled
+__pycache__/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
